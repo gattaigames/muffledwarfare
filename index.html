@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117406512-2"></script>
@@ -12,31 +12,73 @@
 </script>
 
 <title>Muffled Warfare</title>
-<meta name="description" content="An Echolocation First Person Shooter, where you use sound to SEE, SHOOT and SILENCE the competiton">
+<meta name="description" content="An Echolocation FPS.">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <meta property="og:image" content="../images/feat.png" />
 <meta property="og:url" content="https://www.muffledwarfare.com" />
 <meta property="og:title" content="Muffled Warfare" />
-<meta property="og:description" content="A multiplayer first-person echolocation shooter where everyone is blind and are forced to use sounds to [b]SEE[/b], [b]SHOOT[/b] and [b]SILENCE[/b]. Think that blind Superhero that uses sound to see with guns." />
+<meta property="og:description" content="Muffled Warfare is a multiplayer first-person echolocation shooter where everyone is blind and uses sounds to SEE, SHOOT and SILENCE their competition. You've heard of that blind superhero that dresses up like a devil in red right? Yea, think that, but with guns." />
 <link rel="shortcut icon" href="images/favicon.ico"/>
-<link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="style_mw.css"/>
 </head>
 
 <body>
+  <!-- Start Header-->
+  <div id="header">
+    <div id="headerSocial">
+      <a href="https://www.facebook.com/gattaigames" target="_blank"><img class="socialButton hvr-sweep-to-top" src="https://gattaigames.com/images/social_facebook.png"></a>
+      <a href="https://www.twitter.com/gattaigames" target="_blank"><img class="socialButton hvr-sweep-to-top" src="https://gattaigames.com/images/social_twitter.png"></a>
+      <a href="https://www.discord.gg/gattaigames" target="_blank"><img class="socialButton hvr-sweep-to-top" src="https://gattaigames.com/images/social_discord.png"></a>
+      <a href="https://www.instagram.com/gattaigames" target="_blank"><img class="socialButton hvr-sweep-to-top" src="https://gattaigames.com/images/social_instagram.png"></a>
+      <a href="https://www.youtube.com/user/gattaigames" target="_blank"><img class="socialButton hvr-sweep-to-top" src="https://gattaigames.com/images/social_youtube.png"></a>
+    </div>
+  </div>
+
+
+  <div id="GattaiLabel">
+    <a href="http://gattaigames.com" class="hvr-sink gattaiLogo" target="_blank"><img src="https://gattaigames.com/images/logo_gattai.png" width="100%"></a>
+  </div>
+
+
+  <div id="floatingNewsletter">
+    <form action="https://gattaigames.us9.list-manage.com/subscribe/post?u=ba9eda15c363491b6126f3ada&amp;id=c239d251bd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="subEmail" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ba9eda15c363491b6126f3ada_c239d251bd" tabindex="-1" value=""></div>
+      <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subButton" style= "font-family:'OrkneyRegular';"></div>
+    </form>
+  </div>
+
+  <div id="floatingsocial">
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmuffledwarfare&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=404336309628267" height="21" width="97" align="right" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+		  <div style="height:27px;"></div>
+
+		<a href="https://twitter.com/muffledwarfare" class="twitter-follow-button" style="padding:10px" data-show-count="false">Follow @muffledwarfare</a>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  </div>
+  <!--End Header-->
+
   <div id="centerDIV">
     <div id="logoDIV">
-      <div class="logo"></div>
-      <div class="readingtext">
-      <center>An echolocation-based FPS from the creators of <a href="http://stifledgame.com" target="_blank">Stifled</a>.</center>
-      <center><a href="https://muffledwarfare.com/newsletter" target="_blank">Signup for our Mailing List</a></center>
-      </div>
+      <div id="logo"></div>
+      <center class="tagline">An Echolocation FPS</center>
     </div>
+    <!--
+    <center>An echolocation-based FPS from the creators of <a href="http://stifledgame.com" target="_blank">Stifled</a>.</center>
+    <div id="itchDIV">
+      <div class="itch-container">
+<iframe frameborder="0" src="https://itch.io/embed/242081?border_width=0&amp;bg_color=000000&amp;fg_color=ffffff&amp;border_color=ffffff" width="550" height="165"></iframe>      </div>
+    </div>
+    -->
     <div id="steamDIV">
       <div class="steam-container">
-        <iframe src="https://store.steampowered.com/widget/545180/" frameborder="0" width="646" height="190"></iframe>
+        <iframe src="http://store.steampowered.com/widget/545180/" frameborder="0" width="646" height="190"></iframe>
       </div>
     </div>
+
 
     <div id="videoDIV">
       <div class="video-container">
@@ -45,23 +87,29 @@
         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
       </div>
-    <div>
+    </div>
 
     <div id="textDIV">
       <div class="readingtext">
-          <center><h1>WISHLIST ON <a href="http://muffledwarfare.com/steam">STEAM</a>.</h1></center>
-          <center><a href="https://www.indiedb.com/games/muffled-warfare" title="View Muffled Warfare on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/66301.png" alt="Muffled Warfare" /></a></center>
+          <center><h1>BUY ON <a href="http://muffledwarfare.com/steam" target="_blank">STEAM</a>.</h1></center>
+          <center><a href="http://www.indiedb.com/games/muffled-warfare" title="View Muffled Warfare on Indie DB" target="_blank"><img src="http://button.indiedb.com/popularity/medium/games/66301.png" alt="Muffled Warfare" /></a></center>
 		      <br>
       </div>
-      <div class="socialarea">
-        <a href="https://www.facebook.com/gattaigames" target="_blank"><img id="social" src="images/social_facebook.png"></a>
-    		<a href="https://www.twitter.com/gattaigames" target="_blank"><img id="social" src="images/social_twitter.png"></a>
-        <a href="https://www.muffledwarfare.com/discord" target="_blank"><img id="social" src="images/social_discord.png"></a>
-    		<a href="https://www.instagram.com/gattaigames" target="_blank"><img id="social" src="images/social_instagram.png"></a>
-        <a href="https://www.youtube.com/user/gattaigames" target="_blank"><img id="social" src="images/social_youtube.png"></a>
-    	</div>
     </div>
   </div>
+
+  <div id="footer">
+    <p>
+      Made with <span style="color: #ff0000;">❤</span> in Singapore 🇸🇬. © <a class="gattailink" href="https://gattaigames.com">Gattai Games</a> 2014. All Rights Reserved.
+      <br>
+      “PlayStation®” and "PS4™" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.
+      <br><br>
+      <a class="gattailink" href="https://www.gattaigames.com/privacypolicy/privacy.html" alt="privay policy" target="_blank">Privacy Policy</a> |
+      <a class="gattailink" href="http://gattaigames.us9.list-manage.com/subscribe?u=ba9eda15c363491b6126f3ada&id=c239d251bd" alt="newsletter" target="_blank">Newsletter</a> |
+      <a class="gattailink" href="mailto:contact@gattagames.com">Email</a>
+    </p>
+  </div>
+
 </body>
 
 </html>

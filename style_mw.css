@@ -1,0 +1,189 @@
+/*ImportUniversalStyle From GattaiGames*/
+@import url('https://www.gattaigames.com/style_gattai.css');
+
+body
+{
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ), url(images/bg.gif) no-repeat center center fixed;
+	background-size: cover;
+	background-color: black;
+	color: white;
+}
+
+#centerDIV
+{
+	margin: 2em auto 0 auto;
+	background-color: transparent;
+	width: 90%;
+	height: 100%;
+	overflow: auto;
+}
+
+#logoDIV
+{
+	margin: 2em auto 50px auto;
+	width: 100%;
+	max-width: 420px;
+	background-color: transparent;
+}
+
+#logo {
+	position:relative;
+	background: url(images/logo_mw_mini.png) no-repeat center;
+	background-size: 100%;
+	padding-bottom:8.5em;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.tagline
+{
+	font-family: 'OrkneyBold';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+#steamDIV
+{
+	margin: 1.5em auto 1em auto;
+	width: 100%;
+	max-width: 640px;
+	background-color: transparent;
+}
+
+.steam-container {
+	position:relative;
+	padding-bottom:10.5em;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.steam-container iframe, .steam-container object, .steam-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#itchDIV
+{
+	margin: 2em auto 0 auto;
+	width: 100%;
+	max-width: 640px;
+}
+
+.itch-container {
+	position:relative;
+	padding-bottom:35%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.itch-container iframe, .itch-container object, .itch-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color: !important yellow;
+}
+
+.itch-container widget_container
+{
+	background-color: !important yellow;
+}
+
+#videoDIV
+{
+	margin: 0 auto 0 auto;
+	width: 100%;
+	max-width: 860px;
+	background-color: transparent;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#textDIV
+{
+	margin: 2em auto 0 auto;
+	width: 100%;
+	max-width: 860px;
+	background-color: transparent;
+}
+
+.readingtext
+{
+	padding: 0;
+	font-size:1em;
+}
+
+.socialarea
+{
+	padding: 0 0 2em 0;
+	text-align: center;
+}
+
+.aligncenter
+{
+	font-size:1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+#social
+{
+	margin-top: 0;
+	width: 32px;
+	height: auto;
+}
+
+#social a:hover
+{
+	margin-top: 5px;
+	width: 32px;
+	height: auto;
+}
+
+a
+{
+	color: #1fe7ce;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #1fe7ce;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #1fe7ce;
+	text-decoration: underline;
+}
